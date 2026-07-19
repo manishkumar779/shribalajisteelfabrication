@@ -1,0 +1,8 @@
+{
+  "name": "Shri Balaji Steel Fabrication",
+  "description": "Premium industrial welding and steel fabrication website for Shri Balaji Steel Fabrication (श्री बालाजी स्टील फैब्रिकेशन). Managed by Ram Pravesh Gupta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

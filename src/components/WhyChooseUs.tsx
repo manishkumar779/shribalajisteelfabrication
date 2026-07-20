@@ -14,13 +14,13 @@ export default function WhyChooseUs() {
     {
       icon: <Award className="w-6 h-6 text-red-600 dark:text-red-400" />,
       title: "Experienced Craftsmen",
-      description: "Our workforce consists of highly trained metalworkers under the direction of Ram Pravesh Gupta. Precision in every weld is our standard.",
+      description: "Our workforce consists of highly trained metalworkers under the direction of Ram Pravesh Gupta. Precision in every weld is our standard at our premier Welding Shop Uttam Nagar.",
       metric: "15+ Years Exp",
     },
     {
       icon: <ShieldCheck className="w-6 h-6 text-red-600 dark:text-red-400" />,
       title: "Premium Quality Materials",
-      description: "We use top-grade mild steel and stainless steel with thick gauges. Anti-rust priming and custom coatings are included in all builds.",
+      description: "We use top-grade mild steel and stainless steel with thick gauges. Anti-rust priming, MS Gate Fabrication, and custom SS Railing are built to perfection.",
       metric: "Grade A Steel",
     },
     {
@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
     {
       icon: <Clock className="w-6 h-6 text-red-600 dark:text-red-400" />,
       title: "On-Time Delivery",
-      description: "Our shop operates around structured timelines. We manufacture fast, perform safety inspections, and install strictly on schedule.",
+      description: "Our shop operates around structured timelines in West Delhi. We manufacture fast, perform safety inspections, and install strictly on schedule.",
       metric: "100% On-Time",
     },
     {
@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
             Uncompromising Standards
           </span>
           <h2 className="text-3xl md:text-5xl font-display font-extrabold text-slate-900 dark:text-white tracking-tight">
-            Why Choose Shri Balaji Steel?
+            Why Choose Shri Balaji Steel Fabrication?
           </h2>
           <div className="h-1 w-24 bg-red-600 mx-auto rounded-full" />
           <p className="text-slate-600 dark:text-slate-300 font-light leading-relaxed">

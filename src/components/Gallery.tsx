@@ -20,51 +20,51 @@ export default function Gallery() {
   const galleryItems: GalleryItem[] = [
     {
       id: "proj-1",
-      title: "Premium Luxury MS & SS Gate",
+      title: "Premium MS Gate Fabrication",
       category: "gate",
       categoryLabel: "Gates & Grills",
       imageUrl: gateImg,
-      description: "Modern architectural entrance gate designed in stainless steel combined with high-durability wood finish panels.",
+      description: "Modern architectural Steel Gate and Iron Gate designs crafted by our premier Welding Shop Uttam Nagar using top-grade mild steel.",
     },
     {
       id: "proj-2",
-      title: "Heavy Duty Industrial Steel Shed",
+      title: "Industrial Fabrication Steel Shed",
       category: "shed",
       categoryLabel: "Sheds & Structures",
       imageUrl: shedImg,
-      description: "Rigid truss-and-rafter structure completed for a 12,000 sq ft industrial manufacturing plant warehouse.",
+      description: "Rigid truss-and-rafter structure completed for a West Delhi manufacturing plant warehouse by Shri Balaji Steel Fabrication.",
     },
     {
       id: "proj-3",
-      title: "Elegant Spiral Balcony Railing",
+      title: "Elegant Balcony SS Railing",
       category: "railing",
       categoryLabel: "Railings",
       imageUrl: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800",
-      description: "Highly polished SS-304 staircase and balcony safety railing with curved ergonomic joints.",
+      description: "Highly polished balcony SS Railing and stainless steel staircase support installed for a residential building in West Delhi.",
     },
     {
       id: "proj-4",
-      title: "Safety Window Ornamental Grill",
+      title: "Safety Window Iron Gate & Grill",
       category: "grill",
       categoryLabel: "Gates & Grills",
       imageUrl: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&q=80&w=800",
-      description: "Classical hand-forged mild steel window security grill featuring ornamental floral details.",
+      description: "Classical hand-forged mild steel window security grill and secure Iron Gate elements from our local Welding Shop Uttam Nagar.",
     },
     {
       id: "proj-5",
-      title: "Commercial Motorized Rolling Shutter",
+      title: "Commercial Rolling Shutter Setup",
       category: "gate",
       categoryLabel: "Gates & Grills",
       imageUrl: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&q=80&w=800",
-      description: "High-security motorized heavy-gauge steel shutter installed for a modern commercial storefront.",
+      description: "High-security Rolling Shutter installation completed for a modern commercial storefront and warehouse garage in West Delhi.",
     },
     {
       id: "proj-6",
-      title: "Prefabricated Portal Roof Frame",
+      title: "Steel Fabrication Uttam Nagar Portal Frame",
       category: "shed",
       categoryLabel: "Sheds & Structures",
       imageUrl: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800",
-      description: "Engineered steel building portal frames assembled with accurate high-tensile anchor bolts.",
+      description: "Engineered Steel Fabrication Uttam Nagar building portal frames assembled with accurate high-tensile anchor bolts for structural durability.",
     },
   ];
 
@@ -90,10 +90,10 @@ export default function Gallery() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
           <div className="space-y-2">
             <span className="text-red-600 dark:text-red-400 font-mono font-semibold tracking-wider text-sm uppercase">
-              Showcasing Our Work
+              West Delhi Steel Showcase
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Our Projects Gallery
+              Steel Fabrication & Welding Projects in Uttam Nagar
             </h2>
             <div className="h-1 w-20 bg-red-600 rounded-full" />
           </div>

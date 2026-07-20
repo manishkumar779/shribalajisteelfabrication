@@ -70,7 +70,7 @@ export default function Contact() {
           </h2>
           <div className="h-1 w-24 bg-red-600 mx-auto rounded-full" />
           <p className="text-slate-600 dark:text-slate-300 font-light leading-relaxed">
-            Ready to start? Contact owner Ram Pravesh Gupta for professional <strong>Steel Fabrication in Uttam Nagar</strong>. Whether it is <strong>Gate Fabrication</strong>, <strong>MS Gate</strong> construction, balcony <strong>SS Railing</strong> setups, security <strong>Rolling Shutter</strong> manufacturing, or heavy-duty <strong>Shed Fabrication</strong>, visit our local workshop for expert consultations and free estimates.
+            Ready to start? Contact owner Ram Pravesh Gupta for professional <strong>Steel Fabrication Uttam Nagar</strong>. Whether you need custom <strong>MS Gate Fabrication</strong>, security <strong>Steel Gate</strong> or <strong>Iron Gate</strong> installation, balcony <strong>SS Railing</strong> setups, heavy-duty <strong>Rolling Shutter</strong> systems, or structural <strong>Industrial Fabrication</strong>, visit our premier <strong>Welding Shop Uttam Nagar</strong> in <strong>West Delhi</strong> for expert consultations and free estimates.
           </p>
         </div>
 

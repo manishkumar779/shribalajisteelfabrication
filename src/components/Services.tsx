@@ -31,24 +31,24 @@ export default function Services() {
   const services: ServiceItem[] = [
     {
       id: "steel-fab",
-      title: "Steel Fabrication in Uttam Nagar",
-      description: "Premium architectural and structural Steel Fabrication in Uttam Nagar, custom engineered for builders and homeowners in Delhi NCR.",
+      title: "Steel Fabrication Uttam Nagar",
+      description: "Premium architectural and structural Steel Fabrication Uttam Nagar, custom engineered for builders and homeowners across West Delhi.",
       icon: <Wrench className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Heavy structural steelwork", "Laser cutting & bending", "Rust-proof zinc priming"],
     },
     {
       id: "ms-ss-gate",
-      title: "Gate Fabrication & MS Gate",
-      description: "Beautiful, robust custom Gate Fabrication featuring heavy-duty MS Gate designs and premium SS entries built for unmatched security.",
+      title: "MS Gate Fabrication & Steel Gate",
+      description: "Beautiful, robust custom MS Gate Fabrication featuring heavy-duty Iron Gate setups, premium Steel Gate entries, and custom slide gates built for security in West Delhi.",
       icon: <Layers className="w-6 h-6" />,
       category: "residential",
       bullets: ["Rust-proof SS finish", "Custom CNC designer patterns", "Smooth heavy-bearing rollers"],
     },
     {
       id: "iron-grill",
-      title: "Iron Grill Work",
-      description: "Safety window grills and sturdy boundary protection systems forged with high-durability mild steel by our expert welders.",
+      title: "Iron Gate & Grill Work",
+      description: "Safety window grills and sturdy boundary protection systems featuring classic Iron Gate elements forged with high-durability mild steel.",
       icon: <Grid3X3 className="w-6 h-6" />,
       category: "residential",
       bullets: ["High structural impact strength", "Modern or traditional patterns", "Weatherproof anti-rust coating"],
@@ -56,7 +56,7 @@ export default function Services() {
     {
       id: "balcony-railing",
       title: "SS Railing Installations",
-      description: "Modern, high-polish balcony SS Railing setups and gorgeous stair rails crafted with premium stainless steel for elegant homes.",
+      description: "Modern, high-polish balcony SS Railing setups and gorgeous stair rails crafted with premium stainless steel for elegant homes in West Delhi.",
       icon: <Layers className="w-6 h-6" />,
       category: "residential",
       bullets: ["Modern minimalist styles", "Polished or hairline finish SS", "Child-safe spacing configurations"],
@@ -72,7 +72,7 @@ export default function Services() {
     {
       id: "rolling-shutter",
       title: "Rolling Shutter setups",
-      description: "Heavy galvanized commercial and industrial security Rolling Shutter installations, perfect for shop owners and warehouses.",
+      description: "Heavy galvanized commercial and industrial security Rolling Shutter installations, perfect for West Delhi shop owners and warehouses.",
       icon: <ShieldAlert className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Heavy gauge galvanized steel", "Smooth gear box assembly", "Secure interlock systems"],
@@ -96,15 +96,15 @@ export default function Services() {
     {
       id: "industrial-fab",
       title: "Industrial Fabrication",
-      description: "Comprehensive Industrial Fabrication including machinery platforms, stair towers, customized steel tanks, and support structures.",
+      description: "Comprehensive Industrial Fabrication including machinery platforms, stair towers, customized steel tanks, and support structures in West Delhi.",
       icon: <Factory className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Structural strength analysis", "High-stress arc/MIG welding", "Safety compliant walkways"],
     },
     {
       id: "welding-repair",
-      title: "Welding Shop Repairs",
-      description: "Emergency welding restoration at our Welding Shop in Uttam Nagar for broken gates, commercial structures, hinges, and columns.",
+      title: "Welding Shop Uttam Nagar Repairs",
+      description: "Emergency welding restoration at our Welding Shop Uttam Nagar for broken gates, commercial structures, hinges, and columns in West Delhi.",
       icon: <Flame className="w-6 h-6" />,
       category: "custom",
       bullets: ["MIG, TIG & ARC capabilities", "On-site structural repairs", "Reinforcement bracing"],
@@ -144,10 +144,10 @@ export default function Services() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
           <div className="space-y-2">
             <span className="text-red-600 dark:text-red-400 font-mono font-semibold tracking-wider text-sm uppercase">
-              Steel Fabricator in Delhi NCR
+              Steel Fabricator in West Delhi
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Steel Fabrication & Gate Fabrication in Uttam Nagar
+              Shri Balaji Steel Fabrication & Welding Shop Uttam Nagar
             </h2>
             <div className="h-1 w-20 bg-red-600 rounded-full" />
           </div>

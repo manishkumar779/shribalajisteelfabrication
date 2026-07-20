@@ -43,7 +43,7 @@ export default function Hero() {
             >
               <span className="flex h-2 w-2 rounded-full bg-red-500 animate-pulse" />
               <span className="text-xs font-mono font-semibold text-red-400 tracking-wider uppercase">
-                Premier Steel Fabricator in Delhi
+                Premier Steel Fabricator in West Delhi
               </span>
             </motion.div>
 
@@ -68,7 +68,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-lg md:text-xl text-slate-300 max-w-2xl font-light leading-relaxed"
             >
-              Professional <strong>Steel Fabrication in Uttam Nagar</strong> by the leading <strong>Welding Shop in Uttam Nagar</strong>. We specialize in custom <strong>Gate Fabrication</strong>, robust <strong>MS Gate</strong> structures, premium <strong>SS Railing</strong>, heavy <strong>Rolling Shutter</strong> security, and expert <strong>Industrial Fabrication</strong>.
+              Professional <strong>Steel Fabrication Uttam Nagar</strong> by the leading <strong>Welding Shop Uttam Nagar</strong>. We specialize in custom <strong>MS Gate Fabrication</strong>, security <strong>Steel Gate</strong> & <strong>Iron Gate</strong> systems, elegant balcony <strong>SS Railing</strong>, robust commercial <strong>Rolling Shutter</strong> setups, and heavy <strong>Industrial Fabrication</strong> in <strong>West Delhi</strong>.
             </motion.p>
 
             {/* Quick trust metrics */}
@@ -148,7 +148,7 @@ export default function Hero() {
                     Specializations
                   </label>
                   <p className="text-sm text-slate-300">
-                    Custom <strong>Gate Fabrication</strong>, <strong>MS Gate</strong>, <strong>SS Railing</strong>, heavy <strong>Rolling Shutter</strong> setups, <strong>Shed Fabrication</strong>, and <strong>Industrial Fabrication</strong>.
+                    Custom <strong>MS Gate Fabrication</strong>, <strong>Steel Gate</strong> & <strong>Iron Gate</strong> setups, high-polish <strong>SS Railing</strong>, heavy-duty <strong>Rolling Shutter</strong> installations, and <strong>Industrial Fabrication</strong> in <strong>West Delhi</strong>.
                   </p>
                 </div>
 

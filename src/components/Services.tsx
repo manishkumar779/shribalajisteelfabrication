@@ -31,48 +31,48 @@ export default function Services() {
   const services: ServiceItem[] = [
     {
       id: "steel-fab",
-      title: "Steel Fabrication",
-      description: "Heavy-duty structural and architectural carbon steel engineering cut and welded to precise engineering blueprints.",
+      title: "Steel Fabrication in Uttam Nagar",
+      description: "Premium architectural and structural Steel Fabrication in Uttam Nagar, custom engineered for builders and homeowners in Delhi NCR.",
       icon: <Wrench className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Heavy structural steelwork", "Laser cutting & bending", "Rust-proof zinc priming"],
     },
     {
       id: "ms-ss-gate",
-      title: "MS & SS Gate",
-      description: "Elegant, high-security gates built from Mild Steel (MS) or premium grade Stainless Steel (SS-304/316) with manual or automated slide systems.",
+      title: "Gate Fabrication & MS Gate",
+      description: "Beautiful, robust custom Gate Fabrication featuring heavy-duty MS Gate designs and premium SS entries built for unmatched security.",
       icon: <Layers className="w-6 h-6" />,
       category: "residential",
       bullets: ["Rust-proof SS finish", "Custom CNC designer patterns", "Smooth heavy-bearing rollers"],
     },
     {
       id: "iron-grill",
-      title: "Iron Grill",
-      description: "Artisanal safety window grills and boundary grills forged with high-durability mild steel to keep your family and home protected.",
+      title: "Iron Grill Work",
+      description: "Safety window grills and sturdy boundary protection systems forged with high-durability mild steel by our expert welders.",
       icon: <Grid3X3 className="w-6 h-6" />,
       category: "residential",
       bullets: ["High structural impact strength", "Modern or traditional patterns", "Weatherproof anti-rust coating"],
     },
     {
       id: "balcony-railing",
-      title: "Balcony Railing",
-      description: "Stunning balcony railings engineered in gorgeous glass-and-stainless-steel combinations or classic premium wrought iron.",
+      title: "SS Railing Installations",
+      description: "Modern, high-polish balcony SS Railing setups and gorgeous stair rails crafted with premium stainless steel for elegant homes.",
       icon: <Layers className="w-6 h-6" />,
       category: "residential",
       bullets: ["Modern minimalist styles", "Polished or hairline finish SS", "Child-safe spacing configurations"],
     },
     {
       id: "stair-railing",
-      title: "Stair Railing",
-      description: "Ergonomic interior and exterior staircase railings designed for maximum handgrip support, safety compliance, and architectural beauty.",
+      title: "Staircase Railings",
+      description: "Ergonomic, ultra-stable staircase railings designed for absolute handgrip safety and architectural enhancement.",
       icon: <Layers className="w-6 h-6" />,
       category: "residential",
       bullets: ["Custom curved structures", "Wood-SS material integration", "Ultra-stable concrete anchoring"],
     },
     {
       id: "rolling-shutter",
-      title: "Rolling Shutter",
-      description: "Industrial and commercial grade pull-down and motorized security rolling shutters for shops, warehouses, and garages.",
+      title: "Rolling Shutter setups",
+      description: "Heavy galvanized commercial and industrial security Rolling Shutter installations, perfect for shop owners and warehouses.",
       icon: <ShieldAlert className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Heavy gauge galvanized steel", "Smooth gear box assembly", "Secure interlock systems"],
@@ -80,15 +80,15 @@ export default function Services() {
     {
       id: "shed-fab",
       title: "Shed Fabrication",
-      description: "Heavy-duty outdoor metal roof structures, terrace shelters, parking carports, and polycarbonate sheet roofs built for premium durability.",
+      description: "Durable Shed Fabrication for terraces, industrial godowns, warehouse shelters, carports, and polycarbonate sheet assemblies.",
       icon: <Warehouse className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Corrugated metal or fiber sheets", "Windproof truss structural engineering", "Heavy water drainage gutters"],
     },
     {
       id: "warehouse-structure",
-      title: "Warehouse Structure",
-      description: "Turnkey structural engineering for metal storage houses, cold storages, agricultural godowns, and steel portal frames.",
+      title: "Warehouse Structures",
+      description: "Sturdy columnless metal storage halls, portal frames, and prefabricated structures manufactured to safety standards.",
       icon: <Warehouse className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Wide columnless spans", "Prefabricated PEB assemblies", "Rigid heavy foundations"],
@@ -96,15 +96,15 @@ export default function Services() {
     {
       id: "industrial-fab",
       title: "Industrial Fabrication",
-      description: "Heavy machinery bases, metal platforms, stair towers, industrial handrails, and customized chemical/water storage tanks.",
+      description: "Comprehensive Industrial Fabrication including machinery platforms, stair towers, customized steel tanks, and support structures.",
       icon: <Factory className="w-6 h-6" />,
       category: "industrial",
       bullets: ["Structural strength analysis", "High-stress arc/MIG welding", "Safety compliant walkways"],
     },
     {
       id: "welding-repair",
-      title: "Welding Repair",
-      description: "Emergency on-site welding restoration of broken hinges, columns, structural cracks, railings, and heavy vehicle frames.",
+      title: "Welding Shop Repairs",
+      description: "Emergency welding restoration at our Welding Shop in Uttam Nagar for broken gates, commercial structures, hinges, and columns.",
       icon: <Flame className="w-6 h-6" />,
       category: "custom",
       bullets: ["MIG, TIG & ARC capabilities", "On-site structural repairs", "Reinforcement bracing"],
@@ -112,7 +112,7 @@ export default function Services() {
     {
       id: "custom-steel-work",
       title: "Custom Steel Work",
-      description: "Bespoke metal furniture, modular designer racks, customized fireplace guards, and complex steel ornaments crafted to order.",
+      description: "Bespoke metal structures, luxury designer racks, customized fireplace guards, and artistic steel features.",
       icon: <Sparkles className="w-6 h-6" />,
       category: "custom",
       bullets: ["Tailored sketch-to-steel", "Artistic custom powder coat", "Bespoke architectural accents"],
@@ -144,10 +144,10 @@ export default function Services() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
           <div className="space-y-2">
             <span className="text-red-600 dark:text-red-400 font-mono font-semibold tracking-wider text-sm uppercase">
-              Our Professional Craft
+              Steel Fabricator in Delhi NCR
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Metal Fabrication Services
+              Steel Fabrication & Gate Fabrication in Uttam Nagar
             </h2>
             <div className="h-1 w-20 bg-red-600 rounded-full" />
           </div>

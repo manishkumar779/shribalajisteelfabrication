@@ -46,11 +46,11 @@ export default function AboutUs() {
             </div>
 
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-              Led by owner <strong className="text-slate-900 dark:text-white font-semibold">Ram Pravesh Gupta</strong>, Shri Balaji Steel Fabrication (श्री बालाजी स्टील फैब्रिकेशन) stands as a trusted leader in architectural metalwork and industrial steel structures. Based on a legacy of structural integrity, precision welding, and aesthetic excellence, we serve both residential builders and industrial enterprises.
+              Led by owner <strong className="text-slate-900 dark:text-white font-semibold">Ram Pravesh Gupta</strong>, <strong>Shri Balaji Steel Fabrication</strong> is the leading choice for top-notch <strong>Steel Fabrication in Uttam Nagar</strong> and a highly recommended <strong>Steel Fabricator in Delhi</strong>. Operating as a premier <strong>Welding Shop in Uttam Nagar</strong>, we bring robust structural design, precise welding, and excellent durability to residential, commercial, and industrial clients.
             </p>
 
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed font-light">
-              We understand that gates, railings, and structural sheds represent vital security and functional investments. That is why our craftsmanship combines heavy-gauge materials with artistic designs, creating installations that are beautiful, robust, and safe.
+              We excel in custom <strong>Gate Fabrication</strong> (including secure <strong>MS Gate</strong> designs), premium balcony <strong>SS Railing</strong>, protective <strong>Rolling Shutter</strong> setups, warehouse <strong>Shed Fabrication</strong>, and all kinds of complex <strong>Industrial Fabrication</strong>. Our expert craftsmanship guarantees beautiful, robust, and completely safe metal installations.
             </p>
 
             <div className="pt-2">

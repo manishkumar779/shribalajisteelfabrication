@@ -63,14 +63,14 @@ export default function Contact() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-red-600 dark:text-red-400 font-mono font-semibold tracking-wider text-sm uppercase">
-            Get In Touch
+            Visit Our Welding Shop in Uttam Nagar
           </span>
           <h2 className="text-3xl md:text-5xl font-display font-extrabold text-slate-900 dark:text-white tracking-tight">
-            Contact & Location Details
+            Shri Balaji Steel Fabrication Contact Details
           </h2>
           <div className="h-1 w-24 bg-red-600 mx-auto rounded-full" />
           <p className="text-slate-600 dark:text-slate-300 font-light leading-relaxed">
-            Ready to start your project? Contact owner Ram Pravesh Gupta directly or visit our welding workshop. We provide free measurements and estimates.
+            Ready to start? Contact owner Ram Pravesh Gupta for professional <strong>Steel Fabrication in Uttam Nagar</strong>. Whether it is <strong>Gate Fabrication</strong>, <strong>MS Gate</strong> construction, balcony <strong>SS Railing</strong> setups, security <strong>Rolling Shutter</strong> manufacturing, or heavy-duty <strong>Shed Fabrication</strong>, visit our local workshop for expert consultations and free estimates.
           </p>
         </div>
 

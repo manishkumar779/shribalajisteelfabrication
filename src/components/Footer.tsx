@@ -1,4 +1,5 @@
-import { Flame, Phone, Mail, MapPin, Facebook, MessageSquare, ShieldAlert } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, MessageSquare, ShieldAlert } from "lucide-react";
+import brandLogo from "../assets/images/shri_balaji_logo_1784570362861.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -31,9 +32,14 @@ export default function Footer() {
           
           {/* Column 1: Brand details (Ovals/Grid) */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="bg-red-600 text-white p-2 rounded-lg">
-                <Flame className="w-5 h-5 animate-pulse" />
+            <div className="flex items-center space-x-4">
+              <div className="relative flex items-center justify-center overflow-hidden h-[50px] md:h-[60px] w-[50px] md:w-[60px] rounded-lg bg-black/60 border border-slate-900 p-0.5 shadow-lg">
+                <img
+                  src={brandLogo}
+                  alt="Shri Balaji Steel Fabrication Logo"
+                  className="w-full h-full object-contain mix-blend-screen"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg text-white leading-tight">

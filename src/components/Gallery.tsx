@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Eye, X, MessageSquare, Flame } from "lucide-react";
+import { Eye, X, MessageSquare } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import gateImg from "../assets/images/steel_gate_fabrication_1784444187911.jpg";
 import shedImg from "../assets/images/industrial_shed_structure_1784444204172.jpg";
+import brandLogo from "../assets/images/shri_balaji_logo_1784570362861.jpg";
 
 interface GalleryItem {
   id: string;
@@ -208,8 +209,15 @@ export default function Gallery() {
                   {/* Copy half */}
                   <div className="p-8 flex flex-col justify-between space-y-6 text-white">
                     <div className="space-y-4">
-                      <div className="flex items-center space-x-2 text-red-500">
-                        <Flame className="w-5 h-5 animate-pulse" />
+                      <div className="flex items-center space-x-3 text-red-500">
+                        <div className="relative flex items-center justify-center overflow-hidden h-7 w-7 rounded-md bg-black/60 border border-slate-900 p-0.5 shadow">
+                          <img
+                            src={brandLogo}
+                            alt="Shri Balaji Logo"
+                            className="w-full h-full object-contain mix-blend-screen"
+                            referrerPolicy="no-referrer"
+                          />
+                        </div>
                         <span className="text-xs font-mono font-semibold tracking-widest uppercase">
                           Shri Balaji Portfolio
                         </span>

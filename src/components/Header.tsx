@@ -1,6 +1,7 @@
 import { useState, useEffect, MouseEvent } from "react";
-import { Menu, X, Sun, Moon, Flame, Phone } from "lucide-react";
+import { Menu, X, Sun, Moon, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import brandLogo from "../assets/images/shri_balaji_logo_1784570362861.jpg";
 
 interface HeaderProps {
   isDark: boolean;
@@ -57,11 +58,16 @@ export default function Header({ isDark, toggleTheme }: HeaderProps) {
           <a
             href="#home"
             onClick={(e) => handleLinkClick(e, "#home")}
-            className="flex items-center space-x-3 group"
+            className="flex items-center space-x-4 group"
             id="nav-logo"
           >
-            <div className="bg-red-600 dark:bg-red-600 text-white p-2 rounded-lg shadow-lg shadow-red-600/30 group-hover:bg-red-700 transition-colors">
-              <Flame className="w-6 h-6 animate-pulse" />
+            <div className="relative flex items-center justify-center overflow-hidden h-[50px] md:h-[60px] w-[50px] md:w-[60px] rounded-lg bg-black/50 border border-slate-800/40 p-0.5 shadow-lg group-hover:scale-105 transition-all duration-300">
+              <img
+                src={brandLogo}
+                alt="Shri Balaji Steel Fabrication Logo"
+                className="w-full h-full object-contain mix-blend-screen"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-lg md:text-xl text-slate-900 dark:text-white tracking-tight leading-tight">

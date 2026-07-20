@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { Flame, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import brandLogo from "./assets/images/shri_balaji_logo_1784570362861.jpg";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -70,9 +71,14 @@ export default function App() {
               {/* Spinning/pulsing loader circle representing metal arc welding */}
               <div className="w-24 h-24 rounded-full border-4 border-slate-800 border-t-red-600 animate-spin" />
               
-              {/* Flame spark icon centered inside */}
-              <div className="absolute top-7 bg-red-600/10 p-2.5 rounded-full border border-red-500/20">
-                <Flame className="w-8 h-8 text-red-500 animate-pulse" />
+              {/* Official brand logo centered inside */}
+              <div className="absolute top-2 left-2 w-20 h-20 rounded-full overflow-hidden border border-slate-800 bg-black flex items-center justify-center p-1">
+                <img
+                  src={brandLogo}
+                  alt="Shri Balaji Steel Fabrication Logo"
+                  className="w-full h-full object-contain mix-blend-screen animate-pulse"
+                  referrerPolicy="no-referrer"
+                />
               </div>
 
               {/* Sparkles around loader */}
